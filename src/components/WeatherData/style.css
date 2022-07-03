@@ -1,0 +1,127 @@
+.weather-data {
+  width: 31%;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+/*styled header */
+
+.weather-data header {
+  display: flex;
+  align-items: center;
+  color: var(--bg-primary);
+  padding: 1rem 1.5rem;
+  border-bottom: solid 1px #ddd;
+}
+
+.weather-data header h4 {
+  font-size: 1.1rem;
+}
+
+.weather-data header i {
+  font-size: 1.7rem;
+  margin-right: 6px;
+}
+
+.weather-data .weather-data-display .temp_weather_info {
+  text-align: center;
+  padding: 2rem 0;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.weather-data-display .temp_weather_info .forecast-grid-item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 0 1.5rem;
+  margin-top: 30px;
+}
+
+.temp_weather_info .forecast-grid-item .forecast-item {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 0 0 1rem;
+}
+
+.forecast-grid-item .forecast-item h5 {
+  font-weight: 500;
+}
+
+.weather-data-display .temp_weather_info h1 {
+  font-size: 2.1rem;
+}
+
+.weather-data-display .temp_weather_info h4 {
+  margin: 8px 0 10px;
+  font-size: 1.1rem;
+}
+
+.weather-data-display .temp_weather_info .address-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.temp_weather_info .address-info i {
+  margin-right: 6px;
+  font-size: 1.2rem;
+}
+
+.temp_weather_info .address-info span {
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+.weather-data-display .sub_weather_info {
+  display: flex;
+  align-items: center;
+  border-top: solid 1px #ddd;
+}
+
+.weather-data-display .sub_weather_info > div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 0;
+}
+
+.weather-data-display .sub_weather_info h5 {
+  font-size: 1rem;
+  margin-bottom: 1px;
+  font-weight: 600;
+}
+
+.weather-data-display .sub_weather_info h6 {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.sub_weather_info .temperature-info {
+  border-right: solid 1px #ddd;
+}
+
+.sub_weather_info .temperature-info i {
+  font-size: 1.8rem;
+  margin-right: 10px;
+  color: var(--bg-primary);
+}
+
+.sub_weather_info .humadity-info i {
+  font-size: 1.5rem;
+  color: var(--bg-primary);
+
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 520px) {
+  .weather-data {
+    width: 98%;
+  }
+}

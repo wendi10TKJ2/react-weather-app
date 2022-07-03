@@ -1,0 +1,71 @@
+.weather-form {
+  width: 35%;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+/*styled header*/
+
+.weather-form header {
+  padding: 1rem 1.5rem;
+  border-bottom: solid 1px #ddd;
+}
+
+.weather-form header h4 {
+  color: var(--bg-primary);
+  font-size: 1.1rem;
+}
+
+/*styled form*/
+.weather-form .form {
+  width: 100%;
+  padding: 1rem 1.5rem;
+}
+
+.weather-form .form input[type="text"] {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  border: solid 1px #ddd;
+  outline: none;
+}
+
+/*styled divider*/
+.divider {
+  width: 100%;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divider > div {
+  width: 45%;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.divider h6 {
+  font-size: 0.8rem;
+  color: #555;
+  font-weight: 400;
+}
+
+/*styled-button*/
+.btn {
+  padding: 0 1.5rem 1rem;
+  margin-top: 14px;
+}
+
+#device-location {
+  all: unset;
+  background-color: var(--bg-primary);
+  color: #fff;
+  padding: 0.7rem 0;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
